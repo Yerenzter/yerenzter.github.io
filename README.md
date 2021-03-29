@@ -1,0 +1,5 @@
+- I'm Yerenzter
+- I'm an indie developer Gladiolus Interactive Lab.
+- I'm coding with Pascal, Lua, JavaScript, HTML, CSS & JSON to develop a cross platform applications.
+- Relationship with Renzter Arisga Arizala.
+- Renzter's Property.
