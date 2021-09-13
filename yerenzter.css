@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.yr-profile {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    min-width: 100%;
+    min-height: 30%;
+    background-image: url("../img/yerenzter_banner.png");
+    background-repeat: none;
+    background-size: 110%;
+}
+
+.yr-profile-banner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 18px;
+}
+
+.yr-profile-banner-avatar {
+    float: left;
+    width: 132px;
+    height: 132px;
+    filter: drop-shadow(3px 8px 24px #242424);
+}
+
+.yr-profile-banner-name {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 12px 0px 0px 12px;
+}
+
+.yr-profile-banner-name-author {
+    font-family: Roboto Black;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 16px #242424;
+}
+
+.yr-profile-banner-name-field {
+    font-family: Roboto Light;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.yr-profile-banner-bio {
+    padding: 12px;
+}
+
+.yr-profile-banner-bio-text {
+    font-family: Roboto Condensed Italic;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 16px #242424;
+}
+
+.yr-info {
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    min-width: 100%;
+    min-height: 58%;
+    padding: 0px 0px 0px 0px;
+    background-color: #FFF0EA;
+}
+
+.yr-info-label {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.yr-info-label::before {
+    content: " ";
+    justify-self: center;
+    align-self: center;
+    min-width: 70%;
+    height: 1px;
+    background-color: #484848;
+}
+
+.yr-info-label::after {
+    content: " ";
+    justify-self: center;
+    align-self: center;
+    min-width: 70%;
+    height: 1px;
+    background-color: #484848;
+}
+
+.yr-info-label-text {
+    margin: 0px 10px 0px 10px;
+    font-family: Roboto Thin;
+    font-size: 24px;
+    color: #484848;
+}
+
+.yr-info-contact {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    padding: 18px;
+}
+
+.yr-info-contact-panel {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    min-width: 33%;
+}
+
+.yr-info-contact-panel-label {
+    font-family: Roboto Black;
+    font-size: 18px;
+    color: #484848;
+}
+
+.yr-info-contact-panel-name {
+    justify-self: center;
+    align-self: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    font-family: Roboto Light;
+    font-size: 10px;
+    color: #484848;
+}
+
+.yr-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #FFF0EA;
+    padding: 8px;
+}
+
+.yr-footer-text {
+    margin: 0px 3px 0px 3px;
+    font-family: Roboto Thin;
+    font-size: 18px;
+    color: #484848;
+}
+
+.yr-footer::before {
+    content: " ";
+    justify-self: center;
+    align-self: center;
+    min-width: 30%;
+    height: 1px;
+    background-color: #484848;
+}
+
+.yr-footer::after {
+    content: " ";
+    justify-self: center;
+    align-self: center;
+    min-width: 30%;
+    height: 1px;
+    background-color: #484848;
+}
