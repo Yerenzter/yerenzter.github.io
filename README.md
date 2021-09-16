@@ -6,11 +6,11 @@
 - Developer of Flanx UI Graphics.
 - Database Provider.
 
-#What's new!
-###version 0.0.11
+## What's new!
+### version 0.0.11
 - Add color theme tab
 
-###version 0.0.1
+### version 0.0.1
 - Simple UI design
 - Awesome Roboto fonts
 - Responsive CSS will put it soon
