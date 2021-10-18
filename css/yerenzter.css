@@ -14,10 +14,6 @@ body, footer {
     display: block;
     justify-items: center;
     align-content: center;
-    position: fixed;
-    z-index: 0;
-    top: 1;
-    right: 0;
 }
 
 .yr-home-banner {
@@ -27,7 +23,11 @@ body, footer {
     background-image: url("../img/yerenzter_banner.png");
     background-size: 100%;
     background-repeat: none;
-    min-height: inherit;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 1;
+    right: 0;
 }
 
 .yr-home-banner-profile {
