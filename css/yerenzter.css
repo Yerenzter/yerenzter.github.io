@@ -5,124 +5,19 @@
 body, footer {
     min-width: 100%;
     margin: 0px;
+    height:  100%;
     padding: 0px;
     border: 0px;
-}
-
-/* For mobile devices */
-[class*="tab-"] {
-    float: left;
-}
-
-@media only screen and(min-width: 256px) {
-    .tab-1 {width: 8.33%;}
-    .tab-2 {width: 16.66%;}
-    .tab-3 {width: 25%;}
-    .tab-4 {width: 33.33%;}
-    .tab-5 {width: 41.33%;}
-    .tab-6 {width: 50%;}
-    .tab-7 {width: 58.66%;}
-    .tab-8 {width: 66.66%;}
-    .tab-9 {width: 75%;}
-    .tab-10 {width: 81.66%;}
-    .tab-11 {width: 91.66%;}
-    .tab-12 {width: 100%;}
-}
-
-@media only screen and(min-width: 480px) {
-    .tab-a1 {width: 8.33%;}
-    .tab-a2 {width: 16.66%;}
-    .tab-a3 {width: 25%;}
-    .tab-a4 {width: 33.33%;}
-    .tab-a5 {width: 41.33%;}
-    .tab-a6 {width: 50%;}
-    .tab-a7 {width: 58.66%;}
-    .tab-a8 {width: 66.66%;}
-    .tab-a9 {width: 75%;}
-    .tab-a10 {width: 81.66%;}
-    .tab-a11 {width: 91.66%;}
-    .tab-a12 {width: 100%;}
-}
-
-@media only screen and(min-width: 600px) {
-    .tab-r1 {width: 8.33%;}
-    .tab-r2 {width: 16.66%;}
-    .tab-r3 {width: 25%;}
-    .tab-r4 {width: 33.33%;}
-    .tab-r5 {width: 41.33%;}
-    .tab-r6 {width: 50%;}
-    .tab-r7 {width: 58.66%;}
-    .tab-r8 {width: 66.66%;}
-    .tab-r9 {width: 75%;}
-    .tab-r10 {width: 81.66%;}
-    .tab-r11 {width: 91.66%;}
-    .tab-r12 {width: 100%;}
-}
-
-@media only screen and(min-width: 768px) {
-    .tab-y1 {width: 8.33%;}
-    .tab-y2 {width: 16.66%;}
-    .tab-y3 {width: 25%;}
-    .tab-y4 {width: 33.33%;}
-    .tab-y5 {width: 41.33%;}
-    .tab-y6 {width: 50%;}
-    .tab-y7 {width: 58.66%;}
-    .tab-y8 {width: 66.66%;}
-    .tab-y9 {width: 75%;}
-    .tab-y10 {width: 81.66%;}
-    .tab-y11 {width: 91.66%;}
-    .tab-y12 {width: 100%;}
-}
-
-@media only screen and(min-width:  1280px) {
-    .tab-u1 {width: 8.33%;}
-    .tab-u2 {width: 16.66%;}
-    .tab-u3 {width: 25%;}
-    .tab-u4 {width: 33.33%;}
-    .tab-u5 {width: 41.33%;}
-    .tab-u6 {width: 50%;}
-    .tab-u7 {width: 58.66%;}
-    .tab-u8 {width: 66.66%;}
-    .tab-u9 {width: 75%;}
-    .tab-u10 {width: 81.66%;}
-    .tab-u11 {width: 91.66%;}
-    .tab-u12 {width: 100%;}
-}
-
-@media only screen and(min-width: 1440px) {
-    .tab-au1 {width: 8.33%;}
-    .tab-au2 {width: 16.66%;}
-    .tab-au3 {width: 25%;}
-    .tab-au4 {width: 33.33%;}
-    .tab-au5 {width: 41.33%;}
-    .tab-au6 {width: 50%;}
-    .tab-au7 {width: 58.66%;}
-    .tab-au8 {width: 66.66%;}
-    .tab-au9 {width: 75%;}
-    .tab-au10 {width: 81.66%;}
-    .tab-au11 {width: 91.66%;}
-    .tab-au12 {width: 100%;}
-}
-
-@media only screen and(min-width: 2560px) {
-    .tab-yr1 {width: 8.33%;}
-    .tab-yr2 {width: 16.66%;}
-    .tab-yr3 {width: 25%;}
-    .tab-yr4 {width: 33.33%;}
-    .tab-yr5 {width: 41.33%;}
-    .tab-yr6 {width: 50%;}
-    .tab-yr7 {width: 58.66%;}
-    .tab-yr8 {width: 66.66%;}
-    .tab-yr9 {width: 75%;}
-    .tab-yr10 {width: 81.66%;}
-    .tab-yr11 {width: 91.66%;}
-    .tab-yr12 {width: 100%;}
 }
 
 .yr-home {
     display: block;
     justify-items: center;
     align-content: center;
+    position: fixed;
+    z-index: 0;
+    top: 1;
+    right: 0;
 }
 
 .yr-home-banner {
@@ -155,14 +50,14 @@ body, footer {
 
 .yr-home-banner-profile-author-name {
     font-family: Roboto Black;
-    font-size: 24px;
+    font-size: clamp(24px, 100%, 48px);
     color: #FFF;
     text-shadow: 3px 8px 16px #242;
 }
 
 .yr-home-banner-profile-author-field {
     font-family: Roboto Light;
-    font-size: 12px;
+    font-size: clamp(12px, 100%, 24px);
     color: #FFF;
 }
 
@@ -174,15 +69,15 @@ body, footer {
 
 .yr-home-banner-bio-text {
     font-family: Roboto Condensed Italic;
-    font-size: 14px;
+    font-size: clamp(14px, 100%, 24px);
     color: #FFF;
     text-shadow: 3px 8px 16px #242;
 }
 
 .yr-aside::after {
-	content=" ";
-	clear: both;
-	display: block;
+    content: " ";
+    clear: both;
+    display: block;
 }
 
 .yr-label {
@@ -218,9 +113,9 @@ body, footer {
 }
 
 .yr-label-panel-text {
-	margin: 0px 8px 0px 8px;
+    margin: 0px 8px 0px 8px;
     font-family: Roboto Thin;
-    font-size: 32px;
+    font-size: clamp(32px, 100%, 48px);
     color: #FFF;
 }
 
@@ -305,7 +200,7 @@ body, footer {
 	content: " ";
 	justify-self: center;
 	align-self: center;
-	width: 30%;
+	width: clamp(30%, 100%, 50%);
 	height: 1px;
 	background-color: #FFF;
 }
@@ -314,7 +209,7 @@ body, footer {
 	content: " ";
 	justify-self: center;
 	align-self: center;
-	width: 30%;
+	width: clamp(30%, 100%, 50%);
 	height: 1px;
 	background-color: #FFF;
 }
