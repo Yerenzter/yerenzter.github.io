@@ -74,6 +74,11 @@ body, footer {
     text-shadow: 3px 8px 16px #242;
 }
 
+.content {
+    display: grid;
+    z-index: 1;
+}
+
 .yr-aside::after {
     content: " ";
     clear: both;
