@@ -19,11 +19,13 @@ html, body {
     justify-content: center;
     align-items: center;
     height: clamp(80%, 100%, 80%);
+    padding: clamp(1%, 100%, 1%);
 }
 
-.yr-message > h1 {
+.yr-message > big {
     font-family: Roboto Condensed;
     font-size: clamp(24px, 100%, 48px);
+    text-align: center;
     color: #FFF;
 }
 
