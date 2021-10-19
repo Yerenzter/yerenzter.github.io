@@ -1,227 +1,54 @@
-* {
-	box-sizing: border-box;
-}
-
-body, footer {
-    min-width: 100%;
+html, body {
     margin: 0px;
-    height:  100%;
     padding: 0px;
-    border: 0px;
-}
-
-.yr-home {
-    display: block;
-    justify-items: center;
-    align-content: center;
-}
-
-.yr-home-banner {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background-image: url("../img/yerenzter_banner.png");
-    background-size: 100%;
-    background-repeat: none;
+    width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: 0;
-    top: 1;
-    right: 0;
 }
 
-.yr-home-banner-profile {
+.yr-root {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #242;
+}
+
+.yr-message{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    height: clamp(80%, 100%, 80%);
 }
 
-.yr-home-banner-profile-avatar {
-    filter: drop-shadow(3px 8px 16px #242);
-}
-
-.yr-home-banner-profile-author {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    margin: 4px 0px 4px 24px;
-}
-
-.yr-home-banner-profile-author-name {
-    font-family: Roboto Black;
-    font-size: clamp(24px, 100%, 48px);
-    color: #FFF;
-    text-shadow: 3px 8px 16px #242;
-}
-
-.yr-home-banner-profile-author-field {
-    font-family: Roboto Light;
-    font-size: clamp(12px, 100%, 24px);
-    color: #FFF;
-}
-
-.yr-home-banner-bio {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.yr-home-banner-bio-text {
-    font-family: Roboto Condensed Italic;
-    font-size: clamp(14px, 100%, 24px);
-    color: #FFF;
-    text-shadow: 3px 8px 16px #242;
-}
-
-.content {
-    display: grid;
-    z-index: 1;
-}
-
-.yr-aside::after {
-    content: " ";
-    clear: both;
-    display: block;
-}
-
-.yr-label {
-    display: block;
-    justify-items:center;
-    align-items: center;
-    background-color: #222;
-    padding: 12px;
-}
-
-.yr-label-panel {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.yr-label-panel::before {
-    content: " ";
-    justify-self: center;
-    align-self: center;
-    width: 20%;
-    height: 1px;
-    background-color: #FFF;
-}
-
-.yr-label-panel::after {
-    content: " ";
-    justify-self: center;
-    align-self: center;
-    width: 20%;
-    height: 1px;
-    background-color: #FFF;
-}
-
-.yr-label-panel-text {
-    margin: 0px 8px 0px 8px;
-    font-family: Roboto Thin;
-    font-size: clamp(32px, 100%, 48px);
-    color: #FFF;
-}
-
-.yr-content {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    height: 100%;
-    background-color: #222;
-}
-
-.yr-content::after {
-    content: ' ';
-    clear: both;
-}
-
-.yr-content-info {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    width:  52%;
-    margin: 2px 5px 2px 5px;
-    padding: 12px;
-    border: solid #FFF 3px;
-    border-radius: 8px;
-}
-
-.yr-content-info-label {
+.yr-message > h1 {
     font-family: Roboto Bold;
-    font-size: 20px;
-    color: #FFF;
-}
-
-.yr-content-info-data {
-    font-family: Roboto Light;
-    font-size: 12px;
-    color: #FFF;
-}
-
-.yr-intro {
-	display: grid;
-	justify-items: center;
-	align-content: center;
-	background-color: #222;
-}
-
-.yr-intro-panel {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-
-.yr-intro-panel-article {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-}
-
-.yr-intro-panel-article-paragraph {
-    font-family: Roboto Light Italic;
-    font-size: 24px;
-    text-indent: 24px;
-    color: #FFF;
+    font-size: clamp(48px, 100%, 64px);
 }
 
 .yr-footer {
-	display: block;
-	justify-items: center;
-	align-content: center;
-	background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.yr-footer-panel {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	padding: 12px;
+.yr-footer::before {
+    content: "";
+    justify-self: center;
+    align-self: center;
+    width: clamp(30%, 100%, 50%);
+    height: clamp(1px, 100%, 2px);
+    background-color: #242;
 }
 
-.yr-footer-panel::before {
-	content: " ";
-	justify-self: center;
-	align-self: center;
-	width: clamp(30%, 100%, 50%);
-	height: 1px;
-	background-color: #FFF;
+.yr-footer::after {
+    content: "";
+    justify-self: center;
+    align-self: center;
+    width: clamp(30%, 100%, 50%);
+    height: clamp(1px, 100%, 2px);
+    background-color: #FFF;
 }
 
-.yr-footer-panel::after {
-	content: " ";
-	justify-self: center;
-	align-self: center;
-	width: clamp(30%, 100%, 50%);
-	height: 1px;
-	background-color: #FFF;
-}
-
-.yr-footer-panel-text {
-	margin: 0px 5px 0px 5px;
-	font-family: Roboto Thin;
-	font-size: 16px;
-	color: #FFF;
+.yr-footer {
+    font-family: Roboto Light;
+    font-size: clamp(24px, 100%, 48%);
 }
