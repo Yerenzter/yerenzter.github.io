@@ -17,7 +17,7 @@ html, body {
 .yr-message{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: clamp(80%, 100%, 80%);
 }
 
@@ -56,6 +56,6 @@ html, body {
     font-family: Roboto Thin;
     font-size: clamp(12px, 100%, 24px);
     color: #FFF;
-    margin 0px 24px 0px 24px;
+    margin: 0px 24px 0px 24px;
     padding: clamp(2%, 100%, 2%);
 }
