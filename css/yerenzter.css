@@ -38,7 +38,7 @@ html, body {
     content: "";
     justify-self: center;
     align-self: center;
-    width: 20%;
+    width: clamp(30%, 100%, 50%);
     height: 1px;
     background-color: #FFF;
 }
@@ -47,13 +47,13 @@ html, body {
     content: "";
     justify-self: center;
     align-self: center;
-    width: 20%;
+    width: clamp(30%, 100%, 50%);
     height: 1px;
     background-color: #FFF;
 }
 
 .yr-footer > big {
-    font-family: Roboto Light;
+    font-family: Roboto Thin;
     font-size: clamp(12px, 100%, 24px);
     color: #FFF;
     margin 0px 24px 0px 24px;
