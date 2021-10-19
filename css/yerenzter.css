@@ -10,14 +10,14 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #333;
-    height: 100%;
+    max-height: 100%;
 }
 
 .yr-message{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: clamp(80%, 100%, 100%);
 }
 
 .yr-message > h1 {
@@ -37,7 +37,7 @@ html, body {
     content: "";
     justify-self: center;
     align-self: center;
-    width: 30%;
+    width: 20%;
     height: 1px;
     background-color: #FFF;
 }
@@ -46,7 +46,7 @@ html, body {
     content: "";
     justify-self: center;
     align-self: center;
-    width: 30%;
+    width: 20%;
     height: 1px;
     background-color: #FFF;
 }
@@ -55,4 +55,5 @@ html, body {
     font-family: Roboto Light;
     font-size: clamp(12px, 100%, 24px);
     color: #FFF;
+    margin 0px 24px 0px 24px;
 }
