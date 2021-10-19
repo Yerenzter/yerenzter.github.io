@@ -57,7 +57,7 @@ html, body {
 
 .yr-footer > small {
     font-family: Roboto Thin;
-    font-size: clamp(12px, 100%, 24px);
+    font-size: clamp(8px, 100%, 24px);
     color: #FFF;
-    margin-right: 0px 24px 0px 24px;
+    margin: 0px 24px 0px 24px;
 }
