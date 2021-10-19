@@ -10,18 +10,19 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #333;
+    height: 100%;
 }
 
 .yr-message{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: clamp(80%, 100%, 80%);
+    height: 80%;
 }
 
 .yr-message > h1 {
     font-family: Roboto Bold;
-    font-size: clamp(36px, 100%, 48px);
+    font-size: clamp(24px, 100%, 48px);
     color: #FFF;
 }
 
@@ -36,8 +37,8 @@ html, body {
     content: "";
     justify-self: center;
     align-self: center;
-    width: clamp(30%, 100%, 50%);
-    height: clamp(1px, 100%, 2px);
+    width: 30%;
+    height: 1px;
     background-color: #FFF;
 }
 
@@ -45,13 +46,13 @@ html, body {
     content: "";
     justify-self: center;
     align-self: center;
-    width: clamp(30%, 100%, 50%);
-    height: clamp(1px, 100%, 2px);
+    width: 30%;
+    height: 1px;
     background-color: #FFF;
 }
 
 .yr-footer > big {
     font-family: Roboto Light;
-    font-size: clamp(24px, 100%, 48%);
-    color: #FFF
+    font-size: clamp(12px, 100%, 24px);
+    color: #FFF;
 }
