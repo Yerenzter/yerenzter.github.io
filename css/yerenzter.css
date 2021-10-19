@@ -9,7 +9,7 @@ html, body {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #242;
+    background-color: #333;
 }
 
 .yr-message{
@@ -21,13 +21,15 @@ html, body {
 
 .yr-message > h1 {
     font-family: Roboto Bold;
-    font-size: clamp(48px, 100%, 64px);
+    font-size: clamp(36px, 100%, 48px);
+    color: #FFF
 }
 
 .yr-footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 20%;
 }
 
 .yr-footer::before {
@@ -36,7 +38,7 @@ html, body {
     align-self: center;
     width: clamp(30%, 100%, 50%);
     height: clamp(1px, 100%, 2px);
-    background-color: #242;
+    background-color: #FFF;
 }
 
 .yr-footer::after {
@@ -48,7 +50,8 @@ html, body {
     background-color: #FFF;
 }
 
-.yr-footer {
+.yr-footer > big {
     font-family: Roboto Light;
     font-size: clamp(24px, 100%, 48%);
+    color: #FFF
 }
