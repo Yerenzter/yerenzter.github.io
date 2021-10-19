@@ -22,7 +22,7 @@ html, body {
 .yr-message > h1 {
     font-family: Roboto Bold;
     font-size: clamp(36px, 100%, 48px);
-    color: #FFF
+    color: #FFF;
 }
 
 .yr-footer {
