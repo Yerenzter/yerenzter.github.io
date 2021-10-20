@@ -38,9 +38,8 @@ html, body {
 }
 
 .yr-header > h1 {
-    margin: 0em 12em 0em 12em;
     font-family: Poppins Bold;
-    font-size: clamp(48px, 86px, 96px);
+    font-size: clamp(48px, 48px, 96px);
     color: var(--white);
     opacity: 100%;
     animation-name: RiseUp;
@@ -95,7 +94,6 @@ html, body {
 }
 
 .yr-header > h3 {
-    margin 0em 8em 0em 8em;
     font-family: Poppins Thin;
     font-size: clamp(12px, 24px, 24px);
     color: var(--white);
