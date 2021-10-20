@@ -38,7 +38,7 @@ html, body {
 }
 
 .yr-header > h1 {
-    margin: 0px;
+    margin: 0em 1em 0 em 1 em;
     font-family: Poppins Bold;
     font-size: clamp(48px, 86px, 96px);
     color: var(--white);
@@ -95,6 +95,7 @@ html, body {
 }
 
 .yr-header > h3 {
+    margin 0em 1em 0em 1em;
     font-family: Poppins Thin;
     font-size: clamp(12px, 24px, 24px);
     color: var(--white);
