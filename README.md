@@ -7,6 +7,11 @@
 - Database Provider.
 
 ## What's new!
+### version 0.0.13
+- Fixing the unresponsive behavior at the header page
+- Making porfolio more fluid and even better
+- Adding special visual effects touch events to improve user-experience
+
 ### version 0.0.12
 - Changing fonts to Poppins
 - Improve web design and experience
