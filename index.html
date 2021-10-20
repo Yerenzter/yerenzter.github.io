@@ -1,107 +1,201 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Yerenzter</title>
+        <title>Yerenzter | Portfolio Website</title>
         <link href="css/yerenzter.css" rel="stylesheet">
+	<link href="css/yerenzter.animation.css" rel="stylesheet">
         <link href="img/yr_favicon.png" rel="icon">
-        <script src="js/yerenzter.js" type="text/javascript"></script>
-        <script src="json/yerenzter.json" type="text/javascript"></script>
+        <script src="CQDS/CQDS.js" type="text/javascript"></script>
         <style type="text/css">
             @font-face {
-                font-family: Roboto Black;
-                src: url("fonts/Roboto/Roboto-Black.ttf");
-            }
-            
+		font-family: Poppins Black;
+		src: url("fonts/Poppins/Poppins-Black.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Black Italic;
+		src: url("fonts/Poppins/Poppins-BlackItalic.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Bold;
+		src: url("fonts/Poppins/Poppins-Bold.otf");
+ 	    }
+
             @font-face {
-                font-family: Roboto Black Italic;
-                src: url("fonts/Roboto/Roboto-BlackItalic.ttf");
-            }
-            
+		font-family: Poppins Bold Italic;
+		src: url("fonts/Poppins/Poppins-BoldItalic.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Extra Bold;
+		src: url("fonts/Poppins/Poppins-ExtraBold.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Extra Bold Italic;
+		src: url("fonts/Poppins/Poppins-ExtraBoldItalic.otf");
+ 	    }
+
             @font-face {
-                font-family: Roboto Bold;
-                src: url("fonts/Roboto/Roboto-Bold.ttf");
-               
-            }
-            
+		font-family: Poppins Extra Light;
+		src: url("fonts/Poppins/Poppins-ExtraLight.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Extra Light Italic;
+		src: url("fonts/Poppins/Poppins-ExtraLightItalic.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Italic;
+		src: url("fonts/Poppins/Poppins-Italic.otf");
+ 	    }
+
+             @font-face {
+		font-family: Poppins Light;
+		src: url("fonts/Poppins/Poppins-Light.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Light Italic;
+		src: url("fonts/Poppins/Poppins-LightItalic.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Medium;
+		src: url("fonts/Poppins/Poppins-Medium.otf");
+ 	    }
+
             @font-face {
-                font-family: Roboto Bold Condensed;
-                src: url("fonts/Roboto/Roboto-BoldCondensed.ttf");
-            }
-            
+		font-family: Poppins Medium Italic;
+		src: url("fonts/Poppins/Poppins-MediumItalic.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Regular;
+		src: url("fonts/Poppins/Poppins-Regular.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Semi Bold;
+		src: url("fonts/Poppins/Poppins-SemiBold.otf");
+ 	    }
+
             @font-face {
-                font-family: Roboto Bold Condensed Italic;
-                src: url("fonts/Roboto/Roboto-BoldCondensedItalic.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Bold Italic;
-                src: url("fonts/Roboto/Roboto-BoldItalic.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Condensed;
-                src: url("fonts/Roboto/Roboto-Condensed.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Condensed Italic;
-                src: url("fonts/Roboto/Roboto-CondensedItalic.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Italic;
-                src: url("fonts/Roboto/Roboto-Italic.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Light;
-                src: url("fonts/Roboto/Roboto-Light.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Light Italic;
-                src: url("fonts/Roboto/Roboto-LightItalic.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Medium;
-                src: url("fonts/Roboto/Roboto-Medium.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Medium Italic;
-                src: url("fonts/Roboto/Roboto-MediumItalic.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Specimen Book;
-                src: url("fonts/Roboto/Roboto-Specimen-Book.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Thin;
-                src: url("fonts/Roboto/Roboto-Thin.ttf");
-            }
-            
-            @font-face {
-                font-family: Roboto Thin Italic;
-                src: url("fonts/Roboto/Roboto-ThinItalic.ttf");
-            }
+		font-family: Poppins Semi Bold Italic;
+		src: url("fonts/Poppins/Poppins-SemiBoldItalic.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Thin;
+		src: url("fonts/Poppins/Poppins-Thin.otf");
+ 	    }
+
+	    @font-face {
+		font-family: Poppins Thin Italic;
+		src: url("fonts/Poppins/Poppins-ThinItalic.otf");
+ 	    }
         </style>
         <meta name="viewport" content="width-device-width, initial-scale=1">
+	<meta charset="utf-8">
         <meta name="description" content="Official portfolio webpage of Yerenzter that contains blogs, information and more">
         <meta name="author" content="Yerenzter">
-        <meta name="keywords" content="Yerenzter, yerenzter, nenyer, yer, renzter, umiten, marc joseff flores umiten, marc joseff umiten, Renzter Arizala">
-        <meta name="theme-color" content="#242424">
+        <meta name="keywords" content="Yerenzter, yerenzter, nenyer, yer, renzter, umiten, marc joseff flores umiten, marc joseff umiten, Renzter Arizala", "Marc Joseff Flores Umiten", "Philippines", "philippines", "antique", "Antique">
+        <meta name="theme-color" content="#0080FF">
     </head>
     <body>
-        <div class="yr-root">
-            <div class="yr-message">
-                <big>Sorry this portfolio is under maintainance. Sorry for inconvenience</big>
-            </div>
-            <div class="yr-footer">
-                <small>Yerenzter &copy;2020</small>
-            </div>
-        </div>
+	<div class="yr-root">
+	    <div class="yr-header" id="yr-header">
+		<h1>Welcome to my page</h1>
+		<div class="yr-menu">
+		    <a href="#bio">BIO</a>
+		    <a href="#accounts">ACCOUNTS</a>
+		    <a href="#resume">RESUME</a>
+		    <a href="#projects">PROJECTS</a>
+		</div>
+		<h3>Swipe down to see details</h3>
+	    </div>
+	    <div class="yr-content" id="yr-content">
+		<div class="yr-holder"></div>
+ 		<div class="yr-body">
+		    <h1>Hello! I'm Yer the student, coder and hobbyist.</h1>
+		    <p>"First of all I'm Marc Joseff Flores Umiten a.k.a <strong>Yer-Yer,</strong> I'm starting coding at the age of 13 (7th grade year 2016) and my first language that I learn and code in the coding world is the web languages like HTML5, CSS3 and Javascript."</p>
+                    <p>"And also I like to play video-games (not now because I'm in serious relationship, reading books(like atlas, geography, history, sciences & technologies), magazines, newpapers, listen the the headbanging music drops and roaming somewhere around."</p>
+		    <div class="yr-section-label" id="bio">
+			<small>BIO</small>
+		    </div>
+		    <div class="yr-info-panel">
+			<p>Name: <span>Marc Joseff Flores Umiten</span></p>
+ 			<p>Address: <span>Mabuyong Forest, Brgy. Magcalon, San Jose de Buenavista, Antique 5700 (Western Visayas), Philippines</p>
+		        <p>Birthdate: <span class="yr-info-data">January 01, 2003</span></p>
+ 			<p>Birthplace: <span>Brgy. Jinalinan, Bugasong, Antique, Philippines</span></p>
+			<p>Age: <span>18(2021)</span></p>
+ 			<p>Occupation: <span>Student</span></p>
+                        <p>Civil Status: <span>Single(In Relationship w/ Ms. Renzter Arizala)</span></p>
+			<p>Language Spoken: <span>English, Kinaray-A & Tagalog</span></p>
+			<p>Mother Tongue: <span>Kinaray-A (Central Panay/West Bisayan)</span></p>
+		    </div>
+                    <div class="yr-section-label" id="accounts">
+			<small>ACCOUNTS</small>
+		    </div>
+		    <div class="yr-info-panel">
+			<p><a href="mailto:yerenzter@yandex.com">Yandex Mail</a></p>
+			<p><a href="https://github.com/yerenzter">GitHub</a></p>
+			<p><a href="https://yer2003.itch.io">Itch</a></p>
+			<p><a href="https://soundcloud.com/yer2003">Soundcloud</a></p>
+			<p><a href="https://facebook.com/yerenzter">Facebook</a></p>
+			<p><a href="https://facebook.com/yer2003.official">Facebook Page</a></p>
+			<p><a href="https://m.me/yerenzter">Facebook Messenger</a></p>
+			<p><a href="https://instagram.com/yer2003.umi10">Instagram</a></p>
+		    </div>
+		    <div class="yr-section-label" id="resume">
+			<small>RESUME</small>
+		    </div>
+		    <div class="yr-info-panel">
+			<p>Max2D: <span>99%</span></p>
+			<div class="yr-bar" id="max2d"></div>
+			<p>HTML: <span>98%</span></p>
+			<div class="yr-bar" id="html"></div>
+			<p>CSS: <span>94%</span></p>
+			<div class="yr-bar" id="css"></div>
+			<p>JavaScript: <span>85%</span>
+			<div class="yr-bar" id="javascript"></div>
+			<p>Java & XML: <span>59%</span></p>
+			<div class="yr-bar" id="jx"></div>
+			<p>Pascal: <span>55%</span</p>
+			<div class="yr-bar" id="pascal"></div>
+			<p>Python: <span>49%</span></p>
+			<div class="yr-bar" id="python"></div>
+			<p><span>In this statistical have shown above I'm more on web designing and development and also in JavaScript and Pascal I focus on the interfacing and content driven and I'm not good on the Python because I'm not yet to learned well.</span></p>
+		    </div>
+		    <div class="yr-section-label" id="projects">
+			<small>PROJECTS</small>
+		    </div>
+	            <div class="yr-info-panel">
+			<p>CalQ.js</p>
+			<p>Taskr.js</p>
+			<p>dec2bin.py</p>
+			<p>QBix</p>
+			<p>Quikker DJ</p>
+			<p>QFidget</p>
+			<p>QPad</p>
+			<p>Lui</p>
+			<p>CQDS.js</p>
+			<p>leapYear.js</p>
+			<p>HBD_Renzter.pas</p>
+			<p>School Subject Schedule Web</p>
+			<p>FlanxQuickWeb Framework or fQWeb.js</p>
+			<p>Making WebApps using only HTML, CSS & JS compiled in Java and XML webview</p>
+		    </div>
+		    <small>Any problems/issues about this site? Feel free to ask & suggest, click & go to the <a href="#accounts">Account section</a> to let I find out the issues/problems to make our portfolio even better.</small>	
+		    <small>This portfolio page is purely written only in HTML version 5 and CSS version 3 no frameworks or libraries included in this website. Or if you don't believe check this source at <a href="https://github.com/yerenzter.github.io">Yerenzter Web on GitHub</a> to see the contents of the portfolio website.</small>
+		</div>
+		<div class="yr-footer">
+		    <small>Yerenzter &copy;2020</small>
+		</div>
+	    </div>
+	</div>
     </body>
+   </footer>
 </html>

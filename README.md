@@ -7,6 +7,12 @@
 - Database Provider.
 
 ## What's new!
+### version 0.0.12
+- Changing fonts to Poppins
+- Improve web design and experience
+- Adding animations to improve user experience
+- Add responsive property using clamp(min, value, max)
+
 ### version 0.0.11
 - Add color theme tab
 
