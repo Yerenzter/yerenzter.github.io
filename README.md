@@ -8,6 +8,7 @@
 
 ## What's new!
 ### version 0.0.14
+- Adjusting the background color of content panel;
 - Increasing the width and font size of header paragraph to make more mobile-friendly
 - Adjusting font size, margins and paddings of some contents that fits on some mobile devices with low screen density
 
