@@ -9,7 +9,7 @@
 ## What's new!
 ### version 0.0.14
 - Increasing the width and font size of header paragraph to make more mobile-friendly
-- Adjusting font size, margins and paddings of some contents that fits on some mmobile devices with low screen density
+- Adjusting font size, margins and paddings of some contents that fits on some mobile devices with low screen density
 
 ### version 0.0.13
 - Fixing the unresponsive behavior at the header page
