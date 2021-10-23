@@ -7,6 +7,9 @@
 - Database Provider.
 
 ## What's new!
+## version 0.0.15
+- Forcing desktop mode in all mobile platforms due to unrensponsive layout behavior
+
 ### version 0.0.14
 - Adjusting the background color of content panel;
 - Increasing the width and font size of header paragraph to make more mobile-friendly
