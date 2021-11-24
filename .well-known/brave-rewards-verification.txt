@@ -1,0 +1,2 @@
+Domain: yerenzter.github.io
+Token: ed52bf9eef7c94598ded29f3951772a57dd5baccc46a7a25cf7932711c33a14e
